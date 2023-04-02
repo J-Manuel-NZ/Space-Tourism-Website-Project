@@ -1,5 +1,7 @@
 ---
 import Navbar from "../components/navbar";
+import Destination_page from "../components/destination_page";
+import '../../styles.css'
 ---
 
 
@@ -11,8 +13,9 @@ import Navbar from "../components/navbar";
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-    <body>
-        <Navbar page={'destination'} />
+    <body class="bg-fixed bg-cover bg-center bg-no-repeat h-vh bg-[url('../src/assets/destination/background-destination-mobile.jpg')] md:bg-[url('../src/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('../src/assets/destination/background-destination-desktop.jpg')] " >
+        <Navbar client:load page={'destination'} />
+        <Destination_page client:load />
 
     </body>
 </html>
