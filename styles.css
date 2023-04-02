@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply font-body flex h-full items-center text-white 
+    tracking-widest whitespace-pre-wrap cursor-pointer 
+    border-y-4 border-y-transparent  hover:border-b-white/50;
+  }
+
+  .nav-item-active {
+      @apply border-b-white hover:border-b-white;
+  }
+  .nav-menu-item {
+    @apply font-body flex items-center text-white 
+    tracking-widest whitespace-pre-wrap cursor-pointer 
+    border-x-4 border-x-transparent  hover:border-r-white/50
+    p-2 m-4 mr-0;
+  }
+
+  .nav-menu-item-active {
+      @apply border-r-white hover:border-r-white;
+  }
+}
+
