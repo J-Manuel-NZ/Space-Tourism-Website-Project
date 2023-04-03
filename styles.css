@@ -8,6 +8,7 @@
 @tailwind utilities;
 
 @layer components {
+  /* Navbar and Destination Style for Related Pages */
   .nav-item {
     @apply font-body flex h-full items-center text-white 
     tracking-widest whitespace-pre-wrap cursor-pointer 
@@ -26,6 +27,17 @@
 
   .nav-menu-item-active {
       @apply border-r-white hover:border-r-white;
+  }
+
+  
+/* Bullet Point Style for Crew Page */
+  .bullet-item {
+    @apply font-body flex h-full text-6xl items-center text-white/25 
+    cursor-pointer hover:text-white/50;
+  }
+
+  .bullet-item-active {
+      @apply text-white hover:text-white;
   }
 }
 

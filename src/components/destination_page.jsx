@@ -6,8 +6,6 @@ const Destination_page = () => {
   const destinationData = data.destinations;
   const [selectedDestination, setSelectedDestination] = useState(destinationData[0].name)
 
-  console.log(data)
-
   return (
     <main className='text-white pt-24 md:pt-36 lg:pt-60 lg:p-60 lg:pb-0 flex flex-col items-center md:items-start'>
 
