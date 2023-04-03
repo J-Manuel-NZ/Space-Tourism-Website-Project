@@ -18,7 +18,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           {page === 'home' ? <li className=' nav-item nav-item-active '><a href='/'><span className='font-bold ' >00</span>  HOME</a></li> : <li className=' nav-item '><a href='/'><span className='font-bold ' >00</span>  HOME</a></li>}
           {page === 'destination' ? <li className=' nav-item nav-item-active '><a href="/destination"><span className='font-bold ' >01</span>  DESTINATION</a></li> : <li className=' nav-item '><a href='/destination'><span className='font-bold ' >01</span>  DESTINATION</a></li>}
           {page === 'crew' ? <li className=' nav-item nav-item-active '><a href="/crew"><span className='font-bold ' >02</span>  CREW</a></li> : <li className=' nav-item '><a href='/crew'><span className='font-bold ' >02</span>  CREW</a></li>}
-          {page === 'technology' ? <li className=' nav-item nav-item-active '><a href="/technology"><span className='font-bold ' >03</span>  TECHNOLOGY</a></li> : <li className=' nav-item '><a href='technology'><span className='font-bold ' >03</span>  TECHNOLOGY</a></li>}
+          {page === 'technology' ? <li className=' nav-item nav-item-active '><a href="/technology"><span className='font-bold ' >03</span>  TECHNOLOGY</a></li> : <li className=' nav-item '><a href='/technology'><span className='font-bold ' >03</span>  TECHNOLOGY</a></li>}
             {/* <li className=' nav-item '><span className='font-bold ' >00</span>  HOME</li>
             <li className=' nav-item '><span className='font-bold ' >01</span>  DESTINATION</li>
             <li className=' nav-item '><span className='font-bold ' >02</span>  CREW</li>
