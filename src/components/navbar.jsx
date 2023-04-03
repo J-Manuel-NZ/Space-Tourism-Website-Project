@@ -10,7 +10,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
   <nav className='flex items-center w-screen my:6 lg:my-24 justify-between absolute'>
-    <img className='mx-6 lg:mx-24' src="../public/assets/shared/logo.svg" alt="Space Company Logo" />
+    <img className='mx-6 lg:mx-24' src="/assets/shared/logo.svg" alt="Space Company Logo" />
     <div className=' h-0.5 w-1/3 bg-gray-500 -mr-12 z-10 hidden lg:block'></div>
     {/* Navbar for tablet and desktop */}
     <div className=' h-24 hidden md:block md:px-6 lg:px-12 bg-white/5 backdrop-blur-md w-3/5'>
