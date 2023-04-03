@@ -1,7 +1,7 @@
 ---
 import Navbar from '../components/navbar.jsx';
 import '../../styles.css';
-import icon from '../assets/shared/logo.svg';
+import icon from '/assets/shared/logo.svg';
 ---
 
 <html lang="en">
@@ -12,7 +12,7 @@ import icon from '../assets/shared/logo.svg';
 		<meta name="generator" content={Astro.generator} />
 		<title>Space Tourism Website - Project</title>
 	</head>
-	<body class="bg-fixed bg-cover bg-center bg-no-repeat h-vh bg-[url('../src/assets/home/background-home-mobile.jpg')] md:bg-[url('../src/assets/home/background-home-tablet.jpg')] lg:bg-[url('../src/assets/home/background-home-desktop.jpg')] " >
+	<body class="bg-fixed bg-cover bg-center bg-no-repeat h-vh bg-[url('/assets/home/background-home-mobile.jpg')] md:bg-[url('/assets/home/background-home-tablet.jpg')] lg:bg-[url('/assets/home/background-home-desktop.jpg')] " >
 		<Navbar client:load page={'home'} />
 		<main class="flex flex-col justify-between items-center p-3 min-h-screen py-20 md:py-24">
 			<div class="max-w-2xl bottom-52 left-52 flex flex-col items-center lg:absolute -m6 px-24">

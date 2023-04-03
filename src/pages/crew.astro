@@ -2,7 +2,7 @@
 import Navbar from "../components/navbar";
 import Crew_module from "../components/crew_module";
 import '../../styles.css'
-import icon from '../assets/shared/logo.svg';
+import icon from '/assets/shared/logo.svg';
 ---
 
 
@@ -14,7 +14,7 @@ import icon from '../assets/shared/logo.svg';
 		<meta name="generator" content={Astro.generator} />
 		<title>Space Tourism Website - Crew</title>
 	</head>
-    <body class="bg-fixed bg-cover bg-center bg-no-repeat h-screen bg-[url('../src/assets/crew/background-crew-mobile.jpg')] md:bg-[url('../src/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('../src/assets/crew/background-crew-desktop.jpg')] " >
+    <body class="bg-fixed bg-cover bg-center bg-no-repeat h-screen bg-[url('/assets/crew/background-crew-mobile.jpg')] md:bg-[url('/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] " >
         <Navbar client:load page={'crew'} />
         <Crew_module client:load />
     </body>
