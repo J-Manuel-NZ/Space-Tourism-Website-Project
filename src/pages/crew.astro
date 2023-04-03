@@ -2,16 +2,17 @@
 import Navbar from "../components/navbar";
 import Crew_module from "../components/crew_module";
 import '../../styles.css'
+import icon from '../assets/shared/logo.svg';
 ---
 
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href={icon} />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Space Tourism Website - Crew</title>
 	</head>
     <body class="bg-fixed bg-cover bg-center bg-no-repeat h-screen bg-[url('../src/assets/crew/background-crew-mobile.jpg')] md:bg-[url('../src/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('../src/assets/crew/background-crew-desktop.jpg')] " >
         <Navbar client:load page={'crew'} />
