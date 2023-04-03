@@ -29,7 +29,7 @@
       @apply border-r-white hover:border-r-white;
   }
 
-  
+
 /* Bullet Point Style for Crew Page */
   .bullet-item {
     @apply font-body flex h-full text-6xl items-center text-white/25 
@@ -38,6 +38,16 @@
 
   .bullet-item-active {
       @apply text-white hover:text-white;
+  }
+
+  /* Number Nav Style for Tech Page  */
+  .numberNav-item {
+    @apply font-body flex w-12 md:w-[60px] lg:w-[80px] h-12 md:h-[60px] lg:h-[80px] border rounded-full border-white/25 text-base md:text-2xl lg:text-[32px] items-center justify-center text-white
+    cursor-pointer hover:border-white;
+  }
+
+  .numberNav-item-active {
+      @apply bg-white border-white text-darkNavy;
   }
 }
 

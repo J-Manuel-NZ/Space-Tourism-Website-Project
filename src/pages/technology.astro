@@ -1,0 +1,20 @@
+---
+import Navbar from "../components/navbar";
+import Technology_page from "../components/technology_page";
+import '../../styles.css'
+---
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+    <body class="bg-fixed bg-cover bg-center bg-no-repeat h-screen bg-[url('../src/assets/technology/background-technology-mobile.jpg')] md:bg-[url('../src/assets/technology/background-technology-tablet.jpg')] lg:bg-[url('../src/assets/technology/background-technology-desktop.jpg')] " >
+        <Navbar client:load page={'technology'} />
+        <Technology_page client:load />
+    </body>
+</html>
