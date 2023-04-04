@@ -6,7 +6,7 @@ const Technology_page = () => {
   const technology = data.technology;
 const [selectedTech, setSelectedTech] = useState(technology[0].name);
   return (
-    <main className='text-white h-vh pt-24 md:pt-36 lg:pt-60 lg:pb-0 flex flex-col items-center md:items-start justify-stretch'>
+    <main className='text-white h-vh pt-24 md:pt-36 lg:pt-60 lg:pl-24 lg:pb-0 flex flex-col items-center md:items-start justify-stretch'>
 
       <h1 className='font-body tracking-[2.7px] md:pl-20 lg:pl-52 md:tracking-[4.7px] text-lg md:text-xl lg:text-3xl lg:mb-20' ><span className='text-white/50 font-bold'>03</span> SPACE LAUNCH 101</h1>
 
